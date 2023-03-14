@@ -1,0 +1,9 @@
+.card.card-flip.text-center[style='height:65vh']
+  .card-front
+    .card-body
+      .embed-responsive
+        = image_tag('card-back', width: "100%")
+
+  .card-back
+    .card-body
+      = image_tag(image, width: "100%")
