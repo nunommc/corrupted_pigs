@@ -33,5 +33,8 @@ module CorruptedPigs
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.hosts << "corrupted-pigs-staging.up.railway.app"
+    config.hosts << "corrupted-pigs.up.railway.app"
   end
 end
