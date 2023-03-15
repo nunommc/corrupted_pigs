@@ -6,6 +6,8 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.2"
 
+# Reduces boot times through caching; required in config/boot.rb
+gem "bootsnap", require: false
 gem 'bootstrap'
 
 gem 'jquery-rails'
