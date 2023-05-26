@@ -8,12 +8,14 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.2"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
-gem 'bootstrap'
 
-gem 'jquery-rails'
+gem 'jsbundling-rails'
+
+gem 'stimulus-rails'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
+gem "sassc"
 
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"

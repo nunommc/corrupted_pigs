@@ -1,2 +1,6 @@
-@import "bootstrap";
-@import "components/*"
+/*
+ *= require_self
+ *= require_tree
+ */
+
+@import "bootstrap/scss/bootstrap.scss";
